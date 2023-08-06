@@ -10,6 +10,7 @@ struct ChansuApp: App {
                 ContentView()
                     .onReceive(NotificationCenter.default.publisher(for: UIApplication.willEnterForegroundNotification)) { _ in
                         print("open")
+                        self.appDelegate.resetNotifications()
                         self.appDelegate.scheduleNotification()
                     }
             }
@@ -34,6 +35,12 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
 
         return true
     }
+    
+    func resetNotifications() {
+        let center = UNUserNotificationCenter.current()
+        center.removeAllPendingNotificationRequests()
+    }
+
 
 
     func scheduleNotification() {
