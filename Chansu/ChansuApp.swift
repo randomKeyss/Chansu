@@ -12,10 +12,11 @@ struct ChansuApp: App {
     }
 }
 
-class AppDelegate: NSObject, UIApplicationDelegate {
+class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        print("center")
         let center  = UNUserNotificationCenter.current()
+
+        center.delegate = self  // Set the delegate
 
         center.requestAuthorization(options: [.alert, .sound]) { (granted, error) in
             if granted {
@@ -41,7 +42,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         // Get current date components
         var dateComponents = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute, .second], from: Date())
         // Add one second
-        dateComponents.second! += 1
+        dateComponents.second! += 10
 
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
 
@@ -56,4 +57,8 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         }
     }
 
+    // UNUserNotificationCenterDelegate method to handle notifications when the app is in the foreground
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        completionHandler([.alert, .badge, .sound])
+    }
 }
