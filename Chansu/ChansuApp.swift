@@ -6,15 +6,20 @@ struct ChansuApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+            WindowGroup {
+                ContentView()
+                    .onReceive(NotificationCenter.default.publisher(for: UIApplication.willEnterForegroundNotification)) { _ in
+                        print("open")
+                        self.appDelegate.scheduleNotification()
+                    }
+            }
         }
-    }
 }
 
 class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         let center  = UNUserNotificationCenter.current()
+        
 
         center.delegate = self  // Set the delegate
 
@@ -29,6 +34,7 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
 
         return true
     }
+
 
     func scheduleNotification() {
         print("schedule notification")
