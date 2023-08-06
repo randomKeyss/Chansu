@@ -6,13 +6,6 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		970B5EF62A7F2DA70011593E /* Chansu2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970B5EF52A7F2DA70011593E /* Chansu2App.swift */; };
-		970B5EF82A7F2DA70011593E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970B5EF72A7F2DA70011593E /* ContentView.swift */; };
-		970B5EFA2A7F2DA90011593E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 970B5EF92A7F2DA90011593E /* Assets.xcassets */; };
-		970B5EFE2A7F2DA90011593E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 970B5EFD2A7F2DA90011593E /* Preview Assets.xcassets */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		2824052A2A7F325600FAE53B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -26,11 +19,6 @@
 /* Begin PBXFileReference section */
 		282405262A7F325500FAE53B /* Chansu.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Chansu.xcodeproj; path = ../../Xcode/Chansu/Chansu.xcodeproj; sourceTree = "<group>"; };
 		970B5EF22A7F2DA70011593E /* Chansu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chansu.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		970B5EF52A7F2DA70011593E /* Chansu2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chansu2App.swift; sourceTree = "<group>"; };
-		970B5EF72A7F2DA70011593E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		970B5EF92A7F2DA90011593E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		970B5EFB2A7F2DA90011593E /* Chansu2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Chansu2.entitlements; sourceTree = "<group>"; };
-		970B5EFD2A7F2DA90011593E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +44,6 @@
 			isa = PBXGroup;
 			children = (
 				282405262A7F325500FAE53B /* Chansu.xcodeproj */,
-				970B5EF42A7F2DA70011593E /* Chansu2 */,
 				970B5EF32A7F2DA70011593E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,26 +54,6 @@
 				970B5EF22A7F2DA70011593E /* Chansu.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		970B5EF42A7F2DA70011593E /* Chansu2 */ = {
-			isa = PBXGroup;
-			children = (
-				970B5EF52A7F2DA70011593E /* Chansu2App.swift */,
-				970B5EF72A7F2DA70011593E /* ContentView.swift */,
-				970B5EF92A7F2DA90011593E /* Assets.xcassets */,
-				970B5EFB2A7F2DA90011593E /* Chansu2.entitlements */,
-				970B5EFC2A7F2DA90011593E /* Preview Content */,
-			);
-			path = Chansu2;
-			sourceTree = "<group>";
-		};
-		970B5EFC2A7F2DA90011593E /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				970B5EFD2A7F2DA90011593E /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,8 +130,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				970B5EFE2A7F2DA90011593E /* Preview Assets.xcassets in Resources */,
-				970B5EFA2A7F2DA90011593E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,8 +140,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				970B5EF82A7F2DA70011593E /* ContentView.swift in Sources */,
-				970B5EF62A7F2DA70011593E /* Chansu2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
