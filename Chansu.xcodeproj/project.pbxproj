@@ -6,23 +6,63 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		217305222A7F358100D674AC /* ChansuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217305212A7F358100D674AC /* ChansuApp.swift */; };
+		217305242A7F358100D674AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217305232A7F358100D674AC /* ContentView.swift */; };
+		217305262A7F358200D674AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217305252A7F358200D674AC /* Assets.xcassets */; };
+		2173052A2A7F358200D674AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217305292A7F358200D674AC /* Preview Assets.xcassets */; };
+		217305342A7F358200D674AC /* ChansuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217305332A7F358200D674AC /* ChansuTests.swift */; };
+		2173053E2A7F358200D674AC /* ChansuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2173053D2A7F358200D674AC /* ChansuUITests.swift */; };
+		217305402A7F358200D674AC /* ChansuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2173053F2A7F358200D674AC /* ChansuUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
-		2824052A2A7F325600FAE53B /* PBXContainerItemProxy */ = {
+		217305302A7F358200D674AC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 282405262A7F325500FAE53B /* Chansu.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 282405152A7F325500FAE53B;
+			containerPortal = 217305162A7F358000D674AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2173051D2A7F358100D674AC;
+			remoteInfo = Chansu;
+		};
+		2173053A2A7F358200D674AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 217305162A7F358000D674AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2173051D2A7F358100D674AC;
 			remoteInfo = Chansu;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		282405262A7F325500FAE53B /* Chansu.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Chansu.xcodeproj; path = ../../Xcode/Chansu/Chansu.xcodeproj; sourceTree = "<group>"; };
-		970B5EF22A7F2DA70011593E /* Chansu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chansu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2173051E2A7F358100D674AC /* Chansu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chansu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		217305212A7F358100D674AC /* ChansuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChansuApp.swift; sourceTree = "<group>"; };
+		217305232A7F358100D674AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		217305252A7F358200D674AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		217305272A7F358200D674AC /* Chansu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Chansu.entitlements; sourceTree = "<group>"; };
+		217305292A7F358200D674AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2173052F2A7F358200D674AC /* ChansuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChansuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		217305332A7F358200D674AC /* ChansuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChansuTests.swift; sourceTree = "<group>"; };
+		217305392A7F358200D674AC /* ChansuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChansuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2173053D2A7F358200D674AC /* ChansuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChansuUITests.swift; sourceTree = "<group>"; };
+		2173053F2A7F358200D674AC /* ChansuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChansuUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		970B5EEF2A7F2DA70011593E /* Frameworks */ = {
+		2173051B2A7F358100D674AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2173052C2A7F358200D674AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217305362A7F358200D674AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,66 +72,143 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		282405272A7F325500FAE53B /* Products */ = {
+		217305152A7F358000D674AC = {
 			isa = PBXGroup;
 			children = (
-				2824052B2A7F325600FAE53B /* Chansu.app */,
+				217305202A7F358100D674AC /* Chansu */,
+				217305322A7F358200D674AC /* ChansuTests */,
+				2173053C2A7F358200D674AC /* ChansuUITests */,
+				2173051F2A7F358100D674AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2173051F2A7F358100D674AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2173051E2A7F358100D674AC /* Chansu.app */,
+				2173052F2A7F358200D674AC /* ChansuTests.xctest */,
+				217305392A7F358200D674AC /* ChansuUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		970B5EE92A7F2DA70011593E = {
+		217305202A7F358100D674AC /* Chansu */ = {
 			isa = PBXGroup;
 			children = (
-				282405262A7F325500FAE53B /* Chansu.xcodeproj */,
-				970B5EF32A7F2DA70011593E /* Products */,
+				217305212A7F358100D674AC /* ChansuApp.swift */,
+				217305232A7F358100D674AC /* ContentView.swift */,
+				217305252A7F358200D674AC /* Assets.xcassets */,
+				217305272A7F358200D674AC /* Chansu.entitlements */,
+				217305282A7F358200D674AC /* Preview Content */,
 			);
+			path = Chansu;
 			sourceTree = "<group>";
 		};
-		970B5EF32A7F2DA70011593E /* Products */ = {
+		217305282A7F358200D674AC /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				970B5EF22A7F2DA70011593E /* Chansu.app */,
+				217305292A7F358200D674AC /* Preview Assets.xcassets */,
 			);
-			name = Products;
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		217305322A7F358200D674AC /* ChansuTests */ = {
+			isa = PBXGroup;
+			children = (
+				217305332A7F358200D674AC /* ChansuTests.swift */,
+			);
+			path = ChansuTests;
+			sourceTree = "<group>";
+		};
+		2173053C2A7F358200D674AC /* ChansuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2173053D2A7F358200D674AC /* ChansuUITests.swift */,
+				2173053F2A7F358200D674AC /* ChansuUITestsLaunchTests.swift */,
+			);
+			path = ChansuUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		970B5EF12A7F2DA70011593E /* Chansu */ = {
+		2173051D2A7F358100D674AC /* Chansu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 970B5F012A7F2DA90011593E /* Build configuration list for PBXNativeTarget "Chansu" */;
+			buildConfigurationList = 217305432A7F358200D674AC /* Build configuration list for PBXNativeTarget "Chansu" */;
 			buildPhases = (
-				970B5EEE2A7F2DA70011593E /* Sources */,
-				970B5EEF2A7F2DA70011593E /* Frameworks */,
-				970B5EF02A7F2DA70011593E /* Resources */,
+				2173051A2A7F358100D674AC /* Sources */,
+				2173051B2A7F358100D674AC /* Frameworks */,
+				2173051C2A7F358100D674AC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Chansu;
-			productName = Chansu2;
-			productReference = 970B5EF22A7F2DA70011593E /* Chansu.app */;
+			productName = Chansu;
+			productReference = 2173051E2A7F358100D674AC /* Chansu.app */;
 			productType = "com.apple.product-type.application";
+		};
+		2173052E2A7F358200D674AC /* ChansuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217305462A7F358200D674AC /* Build configuration list for PBXNativeTarget "ChansuTests" */;
+			buildPhases = (
+				2173052B2A7F358200D674AC /* Sources */,
+				2173052C2A7F358200D674AC /* Frameworks */,
+				2173052D2A7F358200D674AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				217305312A7F358200D674AC /* PBXTargetDependency */,
+			);
+			name = ChansuTests;
+			productName = ChansuTests;
+			productReference = 2173052F2A7F358200D674AC /* ChansuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		217305382A7F358200D674AC /* ChansuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217305492A7F358200D674AC /* Build configuration list for PBXNativeTarget "ChansuUITests" */;
+			buildPhases = (
+				217305352A7F358200D674AC /* Sources */,
+				217305362A7F358200D674AC /* Frameworks */,
+				217305372A7F358200D674AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2173053B2A7F358200D674AC /* PBXTargetDependency */,
+			);
+			name = ChansuUITests;
+			productName = ChansuUITests;
+			productReference = 217305392A7F358200D674AC /* ChansuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		970B5EEA2A7F2DA70011593E /* Project object */ = {
+		217305162A7F358000D674AC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					970B5EF12A7F2DA70011593E = {
-						CreatedOnToolsVersion = 14.2;
+					2173051D2A7F358100D674AC = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					2173052E2A7F358200D674AC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2173051D2A7F358100D674AC;
+					};
+					217305382A7F358200D674AC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2173051D2A7F358100D674AC;
 					};
 				};
 			};
-			buildConfigurationList = 970B5EED2A7F2DA70011593E /* Build configuration list for PBXProject "Chansu" */;
+			buildConfigurationList = 217305192A7F358000D674AC /* Build configuration list for PBXProject "Chansu" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -99,34 +216,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 970B5EE92A7F2DA70011593E;
-			productRefGroup = 970B5EF32A7F2DA70011593E /* Products */;
+			mainGroup = 217305152A7F358000D674AC;
+			productRefGroup = 2173051F2A7F358100D674AC /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 282405272A7F325500FAE53B /* Products */;
-					ProjectRef = 282405262A7F325500FAE53B /* Chansu.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				970B5EF12A7F2DA70011593E /* Chansu */,
+				2173051D2A7F358100D674AC /* Chansu */,
+				2173052E2A7F358200D674AC /* ChansuTests */,
+				217305382A7F358200D674AC /* ChansuUITests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		2824052B2A7F325600FAE53B /* Chansu.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = Chansu.app;
-			remoteRef = 2824052A2A7F325600FAE53B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
-		970B5EF02A7F2DA70011593E /* Resources */ = {
+		2173051C2A7F358100D674AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2173052A2A7F358200D674AC /* Preview Assets.xcassets in Resources */,
+				217305262A7F358200D674AC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2173052D2A7F358200D674AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217305372A7F358200D674AC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -136,17 +255,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		970B5EEE2A7F2DA70011593E /* Sources */ = {
+		2173051A2A7F358100D674AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				217305242A7F358100D674AC /* ContentView.swift in Sources */,
+				217305222A7F358100D674AC /* ChansuApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2173052B2A7F358200D674AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217305342A7F358200D674AC /* ChansuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217305352A7F358200D674AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217305402A7F358200D674AC /* ChansuUITestsLaunchTests.swift in Sources */,
+				2173053E2A7F358200D674AC /* ChansuUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		217305312A7F358200D674AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2173051D2A7F358100D674AC /* Chansu */;
+			targetProxy = 217305302A7F358200D674AC /* PBXContainerItemProxy */;
+		};
+		2173053B2A7F358200D674AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2173051D2A7F358100D674AC /* Chansu */;
+			targetProxy = 2173053A2A7F358200D674AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		970B5EFF2A7F2DA90011593E /* Debug */ = {
+		217305412A7F358200D674AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -204,7 +355,7 @@
 			};
 			name = Debug;
 		};
-		970B5F002A7F2DA90011593E /* Release */ = {
+		217305422A7F358200D674AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -255,15 +406,15 @@
 			};
 			name = Release;
 		};
-		970B5F022A7F2DA90011593E /* Debug */ = {
+		217305442A7F358200D674AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Chansu2/Chansu2.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Chansu/Chansu.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Chansu2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Chansu/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -276,12 +427,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Wafflers.Chansu2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chansu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -291,15 +442,15 @@
 			};
 			name = Debug;
 		};
-		970B5F032A7F2DA90011593E /* Release */ = {
+		217305452A7F358200D674AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Chansu2/Chansu2.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Chansu/Chansu.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Chansu2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Chansu/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -312,12 +463,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Wafflers.Chansu2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chansu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -327,28 +478,132 @@
 			};
 			name = Release;
 		};
+		217305472A7F358200D674AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChansuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chansu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chansu";
+			};
+			name = Debug;
+		};
+		217305482A7F358200D674AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChansuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chansu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chansu";
+			};
+			name = Release;
+		};
+		2173054A2A7F358200D674AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChansuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chansu;
+			};
+			name = Debug;
+		};
+		2173054B2A7F358200D674AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChansuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chansu;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		970B5EED2A7F2DA70011593E /* Build configuration list for PBXProject "Chansu" */ = {
+		217305192A7F358000D674AC /* Build configuration list for PBXProject "Chansu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				970B5EFF2A7F2DA90011593E /* Debug */,
-				970B5F002A7F2DA90011593E /* Release */,
+				217305412A7F358200D674AC /* Debug */,
+				217305422A7F358200D674AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		970B5F012A7F2DA90011593E /* Build configuration list for PBXNativeTarget "Chansu" */ = {
+		217305432A7F358200D674AC /* Build configuration list for PBXNativeTarget "Chansu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				970B5F022A7F2DA90011593E /* Debug */,
-				970B5F032A7F2DA90011593E /* Release */,
+				217305442A7F358200D674AC /* Debug */,
+				217305452A7F358200D674AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217305462A7F358200D674AC /* Build configuration list for PBXNativeTarget "ChansuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217305472A7F358200D674AC /* Debug */,
+				217305482A7F358200D674AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217305492A7F358200D674AC /* Build configuration list for PBXNativeTarget "ChansuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2173054A2A7F358200D674AC /* Debug */,
+				2173054B2A7F358200D674AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 970B5EEA2A7F2DA70011593E /* Project object */;
+	rootObject = 217305162A7F358000D674AC /* Project object */;
 }
